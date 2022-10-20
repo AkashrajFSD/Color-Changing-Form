@@ -1,16 +1,13 @@
-// //  changecolor
-//  function changecolor() {
-//     let color=document.getElementById("colorinputbox").value;
-//     document.body.style.backgroundColor =color;
-//  }
 
-//  message
-function changeColor(changecolor) {
+function changeColor() {
+  
   let NameInput = document.querySelector("#NameInput");
   let message = document.querySelector("#message");
-//   let colorinputbox=document.querySelector("colorinputbox");
+
+  
   let color=document.getElementById("colorinputbox").value;
-    document.body.style.backgroundColor =color;
+  
+  document.body.style.backgroundColor =color;
 
   message.innerHTML = "Hi, " + NameInput.value+"! The color is "+color;
 
